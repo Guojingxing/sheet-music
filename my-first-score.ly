@@ -5,10 +5,10 @@
 
 \score {
   \relative c'
-  
+  \tempo 4 = 80
   {
     \key c \major
-    c4 c g'4 g a a g2 
+    <g'' a e' >1\arpeggio
   }
 
   \layout {}
