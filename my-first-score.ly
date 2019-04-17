@@ -19,7 +19,7 @@ upper = \relative c'{
   \new PianoStaff <<
     \set PianoStaff.instrumentName = #"Piano"
     \new Staff = "upper" \upper
-    \new Staff = "uppers" \upper
+    \new Staff = "uppers" \lower
   >>
   \layout {}
   \midi {}
